@@ -1,0 +1,496 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #fc7f09;
+  --primary-color-light: #fffcfa;
+  --primary-color-dark: #db6e09;
+  --text-dark: #18181b;
+  --text-light: #6b7280;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 56px; 
+}
+.navbar .container-fluid{
+  width: 80%;
+  padding: 20px 0px;
+}
+
+.logo{
+  font-size: 25px;
+  font-weight: bold;
+}
+.logo span{
+  color: #fc7f09;
+}
+.nav-link{
+  font-size: 20px;
+  font-weight: 400;
+}
+.nav-link:hover{
+  color: #fc7f09;
+}
+.bag_shopping{
+  background-color: #fc7f09;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+color: #ffffff;
+font-size: 22px;
+border-radius: 100%;
+width: 40px;
+height:40px;
+}
+.offcanvas-header{
+  background-color: #fc7f09;
+  font-size: 20px;
+}
+#offcanvasNavbar{
+  height: 35%;
+}
+.offcanvas-title{
+  font-size: 30px;
+}
+.offcanvas-title span{
+  color: #ffffff;
+}
+.navbar-toggler{
+  border: none;
+  font-size: 23px;
+}
+.nav-item{
+  text-align: center;
+}
+
+
+
+/* ======== main section design ==========*/
+.main,.special,.explore__section,.chef__container,.customer__section,.footer_body{
+  width: 80%; 
+  padding: 20px 0px;
+
+}
+
+
+.main .header_image{
+width: 800px;
+}
+.main h1{
+  font-weight: bold;
+}
+.main span{
+  color: #fc7f09;
+}
+.main .section__description{
+  font-size: 20px;
+  text-align: justify;
+  color: #6b7280;
+}
+.main .header__btn .btn{
+  background-color: #fc7f09;
+  color: #ffffff;
+  font-size: 20px;
+}
+.main .header__btn .btn:hover{
+  background-color: #db6e09;
+ 
+}
+
+/* ======== special section design ==========*/
+.special {
+  margin-top: 70px;
+  
+}
+
+
+.special__header{
+  text-align: center;
+}
+.special__header p{
+font-size: 20px;
+color: #6b7280;
+
+}
+.special__body{
+  display:flex;
+  justify-content: space-around;
+ 
+}
+.special__card {
+  padding: 1rem;
+  text-align: center;
+  border-radius: 2rem;
+  transition: 0.3s;
+}
+
+.special__card:hover {
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+}
+.spacial__image{
+  width: 180px;
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.3));
+}
+.special__card p{
+  color: #6b7280;
+  padding: 10px 30px;
+}
+.special__ratings{
+  color: #fc7f09;
+}
+.special__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.special__footer .price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+.special__footer .btn{
+  background-color: var(--primary-color);
+  color: var(--primary-color-light);
+}
+.special__footer .btn:hover{
+  background-color: var(--primary-color-dark);
+  
+}
+.footer__logo a{
+text-decoration: none;
+color: var(--primary-color);
+}
+.footer__logo span{
+color: var(--text-dark);
+}
+.footer__description{
+  color: var(--text-light);
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.footer__links{
+  padding: 0; 
+  margin: 0;
+}
+
+.footer__links a{
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--text-light);
+}
+.footer__links a:hover{
+  color: var(--primary-color);
+  transition: all 0.3s;
+}
+.footer__links li{
+  list-style: none;
+  padding-top: 10px;
+
+}
+
+
+
+/* ======== explore section design ==========*/
+.explore__section{
+text-align: justify;
+
+}
+.explore__image{
+  filter: drop-shadow(0 0 50px rgba(252, 127, 9, 0.4));
+}
+.explore__section p{
+  font-size: 20px;
+  color: var(--text-light);
+}
+.explore__btn .btn{
+  background-color: var(--primary-color);
+  color: var(--primary-color-light);
+  font-size: 18px;
+}
+.explore__btn .btn:hover{
+  background-color: var(--primary-color-dark);
+}
+
+
+
+/* ======== card in explore section design ==========*/
+.banner__container{
+  margin-top: 150px;
+
+}
+.card{
+  padding: 2rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 3rem;
+  transition: 0.3s;
+  border: none;
+
+}
+.card:hover {
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+}
+.card-header{
+  background-color: white;
+  border-bottom: none;
+  padding-bottom: 14px;
+}
+.card-header i{
+color: var(--primary-color-light);
+ font-size: 34px;
+padding: 12px;
+border-radius: 1rem;
+}
+.fa-bowl-food{
+  background-color: #62b15c;
+  box-shadow: 5px 5px 30px #62b15cd0;
+}
+.fa-truck{
+background-color: #ff3e67;
+box-shadow: 5px 5px 30px #ff3e67d0;
+}
+.fa-face-grin-stars{
+  background-color: #185adb;
+  box-shadow: 5px 5px 30px #185adbd0;
+}
+.card-title{
+  font-size: 25px;
+  padding-bottom: 10px;
+  
+}
+
+
+.read__more{
+  background-color: var(--white);
+  color: var(--primary-color);
+  border: none;
+  font-size: 21px;
+  transition: 0.3s;
+}
+.card-footer{
+  background-color: white;
+  border-top: none;
+}
+.card-footer a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.card-footer a span {
+  font-size: 1.25rem;
+  transition: 0.3s;
+}
+
+.card-footer a:hover span {
+  transform: translateX(10px);
+}
+
+/* ======== chef section design ==========*/
+.chef__container{
+
+margin-top: 250px;
+}
+.Chef__header{
+  color: var(--text-dark);
+  font-weight: bold;
+}
+.chef__description{
+  color: var(--text-light);
+  font-size: 20px;
+  padding: 10px 0px;
+  line-height: 3ch;
+  text-align: justify;
+}
+.chef__list{
+  margin: 0px;
+  padding: 0px;
+
+}
+.chef__list li{
+margin: 10px 0px;
+  list-style-type: none;
+  font-weight: 500;
+
+
+}
+.chef__list .fa-square-check{
+  padding: 10px;
+ font-size: 23px;
+ 
+}
+
+.chef__list li span {
+  font-size: 1.5rem;
+  
+}
+
+.chef__list li:nth-child(1) span {
+  color: #62b15c;
+}
+.chef__list li:nth-child(2) span {
+  color: #ff3e67;
+}
+.chef__list li:nth-child(3) span {
+  color: #185adb;
+}
+
+
+.chef__image {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  justify-content: center;
+}
+
+.chef__image img {
+  max-width: 570px;
+  border-radius: 100%;
+  margin-inline: auto;
+}
+
+.chef__image::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 100%;
+  max-width: 570px;
+  background-color: var(--primary-color);
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.topping__image{
+  width: 400px;
+}
+
+
+/* ======== customer section design ==========*/
+
+.customer__header{
+  width: 870px;
+
+}
+.customer__header p{
+  color: var(--text-light);
+  font-size: 20px;
+  padding-top: 20px;
+}
+.carousel{
+width: 70%;
+border-radius: 20px;
+border: 2px solid rgba(252, 127, 9, 0.5);
+box-shadow: 5px 5px 30px rgba(252, 127, 9, 0.2);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.carousel-inner{
+  width: 80%;
+  height: 60%;
+  padding: 100px 0px;
+
+}
+.client__image{
+  border-radius: 100%;
+  padding: 20px 0px;
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.3));
+}
+
+
+
+
+
+
+.footer__section{
+  background-color: var(--primary-color-light);
+}
+/* Optional: For very small devices */
+@media (max-width: 480px) {
+  /* Styles for very small devices, like older phones */
+.special p{
+  text-align:justify;
+  font-size: 19px;
+}
+
+
+.chef__image img {
+  max-width: 300px;
+  border-radius: 100%;
+  margin-inline: auto;
+}
+.Chef__header{
+  margin-top: 30px;
+}
+.topping__image{
+ display: none;
+}
+.customer__header p{
+  text-align: justify;
+}
+  /* Additional styles specific to very small devices can go here */
+}
+
+
+@media (max-width: 1024px) {
+
+  .navbar{
+    background-color:var(--primary-color);
+  }
+  .navbar .navbar-brand span{
+  color: var(--primary-color-light);
+  }
+  .special__card {
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+  margin: 10px 0px;
+  }
+  .explore__description{
+    margin-top: 70px;
+  }
+  .banner__container{
+    margin-top: 100px;
+   
+  
+  }
+
+ .card{
+  margin-top: 13px;
+ }
+.chef__container{
+  margin-top: 100px;
+}
+.topping__image{
+  width: 200px;
+}
+.carousel{
+  width: 100%;
+
+  }
+  .footer__section h4{
+    margin-top:13px ;
+  }
+.footer__links{
+  margin-top: 10px;
+}
+
+}
